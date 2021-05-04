@@ -4,12 +4,12 @@ import {StyledNavbar} from './StyledNavbar.jsx';
 const Navbar = () => {
     return (
         <StyledNavbar>
-            <div>
+            <p>
                 foto y nombre
-            </div>
-            <div>
+            </p>
+            <h1>
                 contacto
-            </div>
+            </h1>
             <div>
                 secciones   
             </div>

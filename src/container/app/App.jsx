@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar.jsx';
+import {GlobalStyles} from './GlobalStyles.jsx';
 
 const App = () => {
     return (
-        <div>
-            <Navbar/>
+        <div className='App'>
+            <GlobalStyles />
+            <Navbar />
         </div>
     )
 }
